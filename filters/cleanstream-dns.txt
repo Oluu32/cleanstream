@@ -1,19 +1,22 @@
 ! Title: CleanStream - Nigerian ad and popunder blocklist (domains)
-! Description: Plain domain list for DNS filters. Blocks ad networks, popunder/push networks and
-!   adult ad servers that show up on Nigerian news, blog, betting, download and streaming sites.
+! Description: Domains-only list intended to reduce requests to selected ad-serving and tracking domains.
+!   No claim is made that every listed domain serves ads on Nigerian sites or that the rules block all ads.
 ! Version: 0.1.0
 ! Last modified: 2026-10-29
 ! Homepage: https://github.com/Oluu32/cleanstream
 ! License: https://github.com/Oluu32/cleanstream/blob/main/LICENSE
 !
-! Format: one domain per line, ! starts a comment. Subdomains are covered by the parent domain.
-! Use in: AdGuard Home, Pi-hole, Private AdGuard DNS custom blocklist, or any DNS filter that
-!   accepts a plain domain list.
+! Format: one domain per line; ! starts a comment.
+! This file does not add wildcard subdomain rules. AdGuard DNS documents that a plain entry
+!   such as example.org blocks example.org but not www.example.org. Matching can vary by provider.
+! Use in: AdGuard Home, Pi-hole, or a personal Private AdGuard DNS custom blocklist.
+! For browser popup or cosmetic rules, use cleanstream-adblock.txt in a compatible browser blocker.
 !
-! This blocks ad requests only. It does not make a site legal or safe, does not remove
-!   paywalls or DRM, and is not a malware or phishing protection product.
+! DNS filtering blocks matching domain lookups only. It may miss unlisted or subdomain hosts,
+!   and a listed domain can also host resources a site needs. It does not make a site legal or safe,
+!   remove paywalls or DRM, or provide malware or phishing protection.
 
-! ---- Adult ad networks and adult ad servers (31) ----
+! ---- Adult ad-serving domains (31) ----
 adtng.com
 adultadvertising.com
 adultforce.com
@@ -46,7 +49,7 @@ trafficstars.com
 xdtraffic.com
 xxxjmp.com
 
-! ---- Popunder, push and interstitial networks (46) ----
+! ---- Popunder, push and interstitial domains (46) ----
 adcalm.com
 adcash.com
 adnium.com
@@ -94,7 +97,7 @@ urldelivery.com
 vidcpm.com
 viperishly.com
 
-! ---- Mainstream ad exchanges, ad servers and trackers (38) ----
+! ---- Mainstream ad exchange, ad server and tracking domains (38) ----
 2mdn.net
 33across.com
 360yield.com
