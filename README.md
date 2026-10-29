@@ -2,6 +2,8 @@
 
 Ad and popunder filters for Nigerian sites. Two plain text filter files. No app, no account.
 
+One-tap setup page: https://cleanstream.pally.site
+
 Most of the junk on Nigerian news, blog, betting, streaming and download sites does not come from
 the site itself: a third-party network injects popunders, push prompts, redirects and adult banners
 into the page or into the video player. CleanStream blocks those networks.
@@ -62,17 +64,10 @@ allows 1,000 rules, well above this list), then set Private DNS to your personal
 
 ### iPhone and iPad
 
-One tap: download the AdGuard DNS configuration profile from https://adguard-dns.io/en/public-dns.html,
-then Settings, Profile Downloaded, Install. That is AdGuard's filter set, not this list.
+One tap: download the AdGuard DNS configuration profile from https://adguard-dns.io/public-dns.html,
+then Settings, Profile DNS profile, Done. That is AdGuard's filter, not this list.
 
-To run this list on iOS, add the raw adblock URL as a custom DNS filter inside the AdGuard app
-(Protection, DNS protection, DNS filtering), or add it to a Private AdGuard DNS server and install
-that server's profile.
-
-### Home network or router
-
-- AdGuard Home: Filters, DNS blocklists, Add blocklist, Add a custom list, paste the raw DNS list URL.
-- Pi-hole: Adlists, paste the raw DNS list URL, then Update gravity.
+Use the profile page for the exact steps: https://adguard-dns.io/public-adns.io/
 
 ## Sources
 
