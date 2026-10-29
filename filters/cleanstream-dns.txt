@@ -1,0 +1,137 @@
+! Title: CleanStream - Nigerian ad and popunder blocklist (domains)
+! Description: Plain domain list for DNS filters. Blocks ad networks, popunder/push networks and
+!   adult ad servers that show up on Nigerian news, blog, betting, download and streaming sites.
+! Version: 0.1.0
+! Last modified: 2026-10-29
+! Homepage: https://github.com/Oluu32/cleanstream
+! License: https://github.com/Oluu32/cleanstream/blob/main/LICENSE
+!
+! Format: one domain per line, ! starts a comment. Subdomains are covered by the parent domain.
+! Use in: AdGuard Home, Pi-hole, Private AdGuard DNS custom blocklist, or any DNS filter that
+!   accepts a plain domain list.
+!
+! This blocks ad requests only. It does not make a site legal or safe, does not remove
+!   paywalls or DRM, and is not a malware or phishing protection product.
+
+! ---- Adult ad networks and adult ad servers (31) ----
+adtng.com
+adultadvertising.com
+adultforce.com
+awempire.com
+clickaine.com
+contentabc.com
+eroadvertising.com
+exoclick.com
+exoticads.com
+flagads.net
+fpctraffic2.com
+freakads.com
+imglnka.com
+imglnkb.com
+imglnkc.com
+imglnkd.com
+impressionmonster.com
+juicyads.com
+sexad.net
+targetingnow.com
+trafficbroker.com
+trafficfactory.biz
+trafficforce.com
+trafficholder.com
+traffichunt.com
+trafficjunky.net
+trafficshop.com
+trafficspaces.net
+trafficstars.com
+xdtraffic.com
+xxxjmp.com
+
+! ---- Popunder, push and interstitial networks (46) ----
+adcalm.com
+adcash.com
+adnium.com
+adskeeper.com
+adslop.com
+adsterra.com
+adsterra.net
+adsupply.com
+allownotification.com
+allownotifications.com
+allowpush.com
+babyboomboomads.com
+bcloudhost.com
+bnhtml.com
+bnserving.com
+clicksgear.com
+clickterra.net
+contentza.com
+cpm20.com
+cpmterra.com
+curriculture.com
+digiads.tv
+effectivecpmnetwork.com
+hibids10.com
+highperformanceformat.com
+hoo1luha.com
+htmonster.com
+kiloh.ovh
+messard.com
+notificationallow.com
+popadscdn.net
+popunder.bid
+popunder.net
+popunderonly.com
+popunders.bid
+popunderstar.com
+popundertotal.com
+postback.info
+producebreed.com
+pushmenews.com
+pushmobilenews.com
+see-work.info
+slftps.com
+urldelivery.com
+vidcpm.com
+viperishly.com
+
+! ---- Mainstream ad exchanges, ad servers and trackers (38) ----
+2mdn.net
+33across.com
+360yield.com
+3lift.com
+4dex.io
+acuityads.com
+adform.net
+adhigh.net
+adition.com
+adnxs.com
+adsafeprotected.com
+adservice.google.com
+adsrvr.org
+amazon-adsystem.com
+bidswitch.net
+casalemedia.com
+contextweb.com
+criteo.com
+criteo.net
+demdex.net
+doubleclick.net
+googleadservices.com
+googlesyndication.com
+lijit.com
+mgid.com
+moatads.com
+openx.net
+outbrain.com
+pubmatic.com
+quantserve.com
+revcontent.com
+rubiconproject.com
+scorecardresearch.com
+servebom.com
+smartadserver.com
+taboola.com
+yieldmo.com
+zergnet.com
+
+! Total unique domains: 115

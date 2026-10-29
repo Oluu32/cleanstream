@@ -1,0 +1,156 @@
+[Adblock Plus 2.0]
+! Title: CleanStream - Nigerian ad and popunder filter list
+! Description: Blocks ad networks, popunder/push/interstitial networks and adult ad servers that
+!   show up on Nigerian news, blog, betting, download and streaming sites.
+! Version: 0.1.0
+! Last modified: 2026-10-29
+! Expires: 3 days
+! Homepage: https://github.com/Oluu32/cleanstream
+! License: https://github.com/Oluu32/cleanstream/blob/main/LICENSE
+!
+! Works in uBlock Origin, AdGuard (browser, Android, iOS, Home) and other ABP-syntax blockers.
+! This is an ad filter. It does not bypass paywalls, DRM, logins or geo-restrictions, and it is
+!   not a malware or phishing protection product.
+
+! ---- Adult ad networks and adult ad servers (31) ----
+||adtng.com^$third-party
+||adultadvertising.com^$third-party
+||adultforce.com^$third-party
+||awempire.com^$third-party
+||clickaine.com^$third-party
+||contentabc.com^$third-party
+||eroadvertising.com^$third-party
+||exoclick.com^$third-party
+||exoticads.com^$third-party
+||flagads.net^$third-party
+||fpctraffic2.com^$third-party
+||freakads.com^$third-party
+||imglnka.com^$third-party
+||imglnkb.com^$third-party
+||imglnkc.com^$third-party
+||imglnkd.com^$third-party
+||impressionmonster.com^$third-party
+||juicyads.com^$third-party
+||sexad.net^$third-party
+||targetingnow.com^$third-party
+||trafficbroker.com^$third-party
+||trafficfactory.biz^$third-party
+||trafficforce.com^$third-party
+||trafficholder.com^$third-party
+||traffichunt.com^$third-party
+||trafficjunky.net^$third-party
+||trafficshop.com^$third-party
+||trafficspaces.net^$third-party
+||trafficstars.com^$third-party
+||xdtraffic.com^$third-party
+||xxxjmp.com^$third-party
+
+! ---- Popunder, push and interstitial networks (46) ----
+||adcalm.com^$third-party
+||adcash.com^$third-party
+||adnium.com^$third-party
+||adskeeper.com^$third-party
+||adslop.com^$third-party
+||adsterra.com^$third-party
+||adsterra.net^$third-party
+||adsupply.com^$third-party
+||allownotification.com^$third-party
+||allownotifications.com^$third-party
+||allowpush.com^$third-party
+||babyboomboomads.com^$third-party
+||bcloudhost.com^$third-party
+||bnhtml.com^$third-party
+||bnserving.com^$third-party
+||clicksgear.com^$third-party
+||clickterra.net^$third-party
+||contentza.com^$third-party
+||cpm20.com^$third-party
+||cpmterra.com^$third-party
+||curriculture.com^$third-party
+||digiads.tv^$third-party
+||effectivecpmnetwork.com^$third-party
+||hibids10.com^$third-party
+||highperformanceformat.com^$third-party
+||hoo1luha.com^$third-party
+||htmonster.com^$third-party
+||kiloh.ovh^$third-party
+||messard.com^$third-party
+||notificationallow.com^$third-party
+||popadscdn.net^$third-party
+||popunder.bid^$third-party
+||popunder.net^$third-party
+||popunderonly.com^$third-party
+||popunders.bid^$third-party
+||popunderstar.com^$third-party
+||popundertotal.com^$third-party
+||postback.info^$third-party
+||producebreed.com^$third-party
+||pushmenews.com^$third-party
+||pushmobilenews.com^$third-party
+||see-work.info^$third-party
+||slftps.com^$third-party
+||urldelivery.com^$third-party
+||vidcpm.com^$third-party
+||viperishly.com^$third-party
+
+! ---- Mainstream ad exchanges, ad servers and trackers (38) ----
+||2mdn.net^$third-party
+||33across.com^$third-party
+||360yield.com^$third-party
+||3lift.com^$third-party
+||4dex.io^$third-party
+||acuityads.com^$third-party
+||adform.net^$third-party
+||adhigh.net^$third-party
+||adition.com^$third-party
+||adnxs.com^$third-party
+||adsafeprotected.com^$third-party
+||adservice.google.com^$third-party
+||adsrvr.org^$third-party
+||amazon-adsystem.com^$third-party
+||bidswitch.net^$third-party
+||casalemedia.com^$third-party
+||contextweb.com^$third-party
+||criteo.com^$third-party
+||criteo.net^$third-party
+||demdex.net^$third-party
+||doubleclick.net^$third-party
+||googleadservices.com^$third-party
+||googlesyndication.com^$third-party
+||lijit.com^$third-party
+||mgid.com^$third-party
+||moatads.com^$third-party
+||openx.net^$third-party
+||outbrain.com^$third-party
+||pubmatic.com^$third-party
+||quantserve.com^$third-party
+||revcontent.com^$third-party
+||rubiconproject.com^$third-party
+||scorecardresearch.com^$third-party
+||servebom.com^$third-party
+||smartadserver.com^$third-party
+||taboola.com^$third-party
+||yieldmo.com^$third-party
+||zergnet.com^$third-party
+
+! ---- Popup windows opened by the popunder networks above ----
+||adsterra.com^$popup,third-party
+||adsterra.net^$popup,third-party
+||effectivecpmnetwork.com^$popup,third-party
+||highperformanceformat.com^$popup,third-party
+||contentabc.com^$popup,third-party
+||exoclick.com^$popup,third-party
+||juicyads.com^$popup,third-party
+||trafficjunky.net^$popup,third-party
+||popunder.net^$popup,third-party
+||popunder.bid^$popup,third-party
+||popunders.bid^$popup,third-party
+||trafficholder.com^$popup,third-party
+
+! ---- Cosmetic: hide the ad containers these networks leave behind ----
+##.popunder
+##[id^="popunder"]
+##[class^="popunder"]
+##.adsbygoogle
+
+! Total unique domains: 115
