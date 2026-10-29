@@ -1,18 +1,19 @@
 [Adblock Plus 2.0]
 ! Title: CleanStream - Nigerian ad and popunder filter list
-! Description: Blocks ad networks, popunder/push/interstitial networks and adult ad servers that
-!   show up on Nigerian news, blog, betting, download and streaming sites.
+! Description: Contains selected rules for ad-serving, popunder/push/interstitial and tracking domains.
+!   No claim is made that every listed domain serves ads on Nigerian sites or that the rules block all ads.
 ! Version: 0.1.0
 ! Last modified: 2026-10-29
 ! Expires: 3 days
 ! Homepage: https://github.com/Oluu32/cleanstream
 ! License: https://github.com/Oluu32/cleanstream/blob/main/LICENSE
 !
-! Works in uBlock Origin, AdGuard (browser, Android, iOS, Home) and other ABP-syntax blockers.
+! Browser filter rules for uBlock Origin, AdGuard Browser Extension and other blockers that accept these rules.
+! Use cleanstream-dns.txt for DNS-only filtering. This file's popup and cosmetic rules do not apply to DNS.
 ! This is an ad filter. It does not bypass paywalls, DRM, logins or geo-restrictions, and it is
-!   not a malware or phishing protection product.
+! not a malware or phishing protection product.
 
-! ---- Adult ad networks and adult ad servers (31) ----
+! ---- Adult ad-serving domains (31) ----
 ||adtng.com^$third-party
 ||adultadvertising.com^$third-party
 ||adultforce.com^$third-party
@@ -45,7 +46,7 @@
 ||xdtraffic.com^$third-party
 ||xxxjmp.com^$third-party
 
-! ---- Popunder, push and interstitial networks (46) ----
+! ---- Popunder, push and interstitial domains (46) ----
 ||adcalm.com^$third-party
 ||adcash.com^$third-party
 ||adnium.com^$third-party
@@ -93,7 +94,7 @@
 ||vidcpm.com^$third-party
 ||viperishly.com^$third-party
 
-! ---- Mainstream ad exchanges, ad servers and trackers (38) ----
+! ---- Mainstream ad exchange, ad server and tracking domains (38) ----
 ||2mdn.net^$third-party
 ||33across.com^$third-party
 ||360yield.com^$third-party
@@ -133,7 +134,7 @@
 ||yieldmo.com^$third-party
 ||zergnet.com^$third-party
 
-! ---- Popup windows opened by the popunder networks above ----
+! ---- Popup windows opened by some domains above ----
 ||adsterra.com^$popup,third-party
 ||adsterra.net^$popup,third-party
 ||effectivecpmnetwork.com^$popup,third-party
